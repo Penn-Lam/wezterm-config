@@ -1,5 +1,7 @@
 <h2 align="center">My WezTerm Config</h2>
-
+<h4 align="center">
+  <a href="https://github.com/KevinSilvester/wezterm-config">Original repository</a>
+</h4>
 <p align="center">
   <a href="https://github.com/KevinSilvester/wezterm-config/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/KevinSilvester/wezterm-config?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41">
@@ -12,9 +14,10 @@
   </a>
 </p>
 
-![screenshot](./.github/screenshots/wezterm.gif)
+![screenshot](.github/screenshots/screenshot-1.png)
+![screenshot](.github/screenshots/screenshot-2.png)
 
----
+I really like Perplexity's Branding, so I replaced the background with Perplexity's [illustration](https://www.perplexity.ai/hub) and changed the theme to [Catppuccin](https://github.com/catppuccin/wezterm/blob/main/README.md)
 
 ### Features
 
@@ -99,7 +102,8 @@
         ```sh
         choco install wezterm -y
         ```
-      </details>
+
+        </details>
 
     - <details>
       <summary>Install Nightly</summary>
@@ -117,13 +121,14 @@
         scoop bucket add k https://github.com/KevinSilvester/scoop-bucket
         scoop install k/wezterm-nightly
         ```
-      </details>
+
+        </details>
 
     > :bulb:<br>
     > Toast notifications don't work in non-portable installations.<br>
     > See issue <https://github.com/wez/wezterm/issues/5166> for more details
-  
-    ---
+
+    ***
 
     **MacOS**
 
@@ -142,7 +147,8 @@
         sudo port selfupdate
         sudo port install wezterm
         ```
-      </details>
+
+        </details>
 
     - <details>
       <summary>Install Nighlty</summary>
@@ -158,9 +164,10 @@
         ```sh
         brew install --cask wezterm@nightly --no-quarantine --greedy-latest
         ```
-      </details>
 
-    ---
+        </details>
+
+    ***
 
     **Linux**
 
@@ -190,6 +197,7 @@
     >
     > - <https://www.nerdfonts.com/#home>
     > - <https://github.com/ryanoasis/nerd-fonts?#font-installation>
+
     </details/>
 
 &nbsp;
@@ -393,3 +401,5 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 - <https://github.com/catppuccin/wezterm>
 - <https://github.com/wez/wezterm/discussions/628#discussioncomment-1874614>
 - <https://github.com/wez/wezterm/discussions/628#discussioncomment-5942139>
+- <https://www.perplexity.ai/hub>
+- <https://github.com/SilentGlasses/warp_themes>
